@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>514e9807-d18e-40d6-b991-77e74b5cb336</ID>
+  <Version>5</Version>
+  <Name />
+  <Author>lukia</Author>
+  <Company>Politecnico di Milano</Company>
+  <Notes />
+  <Template />
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>D:\Programm\Database\Aerospace Level 3\data.gdb</Path>
+    <Name>Level 3 Aerospace</Name>
+    <Unit>Metric</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>USD</Currency>
+    <SelectionTable>MaterialUniverse</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>PMP-HDBK Graphical Data</TableName>
+        <SubsetName>All grades</SubsetName>
+        <LayoutName>All grades</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MIL-HDBK-17 Graphical Data</TableName>
+        <SubsetName>All grades</SubsetName>
+        <LayoutName>All grades</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MIL-HDBK-17 Test Data</TableName>
+        <SubsetName>All data</SubsetName>
+        <LayoutName>All data</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MaterialUniverse</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All materials</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ProcessUniverse</TableName>
+        <SubsetName>All processes</SubsetName>
+        <LayoutName>All processes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producers</TableName>
+        <SubsetName>Producers</SubsetName>
+        <LayoutName>Producers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Reference</TableName>
+        <SubsetName>All references</SubsetName>
+        <LayoutName>All references</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Shape</TableName>
+        <SubsetName>Shape class</SubsetName>
+        <LayoutName>Shape class</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Structural Sections</TableName>
+        <SubsetName>All structural sections</SubsetName>
+        <LayoutName>All structural sections</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MMPDS-11 Data</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>MMPDS data</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MMPDS-11 Fasteners</TableName>
+        <SubsetName>All fasteners</SubsetName>
+        <LayoutName>MMPDS fasteners</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>PMP-HDBK Design Data</TableName>
+        <SubsetName>All grades</SubsetName>
+        <LayoutName>All grades</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Temperature</Name>
+        <Value>23</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress Ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Number of Cycles</Name>
+        <Value>10000000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Length</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Load Factor</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Capital Write-off Time</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Overhead Rate</Name>
+        <Value>150</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Batch Size</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Mass</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Material Cost</Name>
+        <Value>8</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Discount Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Time</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Other</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>deltaK</Name>
+        <Value>10.988437652587891</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Tangent Modulus</Name>
+        <Value>75.84234619140625</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Crack Length 2a0</Name>
+        <Value>76.199996948242188</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Mean Stress</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Sheet Thickness</Name>
+        <Value>0.81279999017715454</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Fastener Diameter</Name>
+        <Value>3.1749997138977051</Value>
+        <NamedValue>1/8"</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Specimen Width</Name>
+        <Value>609.5999755859375</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress Concentration</Name>
+        <Value>3</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Data Type</Name>
+        <Value>0</Value>
+        <NamedValue>Curve</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Environment</Name>
+        <Value>2</Value>
+        <NamedValue>Lab air</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain Ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>L/D</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Rupture Type</Name>
+        <Value>2</Value>
+        <NamedValue>Torsional</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>D/t</Name>
+        <Value>80</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress/Strain Curve Type</Name>
+        <Value>2</Value>
+        <NamedValue>Yield</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Other information</Name>
+        <Value>10</Value>
+        <NamedValue>LT direction</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Exposure Time</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Shear</Name>
+        <Value>0.0099999997764825821</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>No. of Standard Deviations</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain Rate</Name>
+        <Value>0.0010000000474974513</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Fibre Volume Percent</Name>
+        <Value>50</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="LimitStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-16,-72,61,61,2356,1282</Windowplacement>
+      <ZOrder>8</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <Form>All materials</Form>
+      <LimitValues>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Melting point</Property>
+          <Low>2000</Low>
+          <High xsi:nil="true" />
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Maximum service temperature</Property>
+          <Low>1000</Low>
+          <High xsi:nil="true" />
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Thermal conductivity</Property>
+          <Low xsi:nil="true" />
+          <High>0.1</High>
+        </LimitValue>
+      </LimitValues>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,152,2263,1133</Windowplacement>
+      <ZOrder>7</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Compressive strength (MPa)</Name>
+        <FunctionObjective />
+        <Expression>[Compressive strength]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.10556063474940274</Low>
+        <High>151571.65619932118</High>
+      </xAxis>
+      <yAxis>
+        <Name>Melting point (°C)</Name>
+        <FunctionObjective />
+        <Expression>[Melting point]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>1643.6532172156965</Low>
+        <High>4988.5126677688841</High>
+      </yAxis>
+      <Selections />
+      <Labels>
+        <Label>
+          <Text>Zirconia foam (partly stabilized)(1.23)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.72216534240706</XPos>
+          <YPos>3483.2716914034245</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>48</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Graphite (general purpose industrial)(parallel to plane)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>19.998246475938267</XPos>
+          <YPos>4906.7475883057368</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>157</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Concrete (high alumina cement)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>15.31972135014475</XPos>
+          <YPos>1672.1722034000841</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>184</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Cement (high alumina)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>91.700002874540075</XPos>
+          <YPos>2532.7829079278818</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>169</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Diamond</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>25128.0623638332</XPos>
+          <YPos>3995.5361724788895</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>306</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Carbon fiber reinforced carbon matrix composite (Vf:40%)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>236.15261038841157</XPos>
+          <YPos>4241.9787177111566</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>4341</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Thoria</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>3753.30468910186</XPos>
+          <YPos>3639.4961420803738</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>380</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Graphite foam (0.12)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>5.15318355985445</XPos>
+          <YPos>4386.3282699317779</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>40</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Alumina foam (99.8%)(1.2)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>208.10369302929104</XPos>
+          <YPos>2657.2621102905737</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>36</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Silicon nitride (reaction bonded)(NR)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>4419.1939828910372</XPos>
+          <YPos>2327.8216769577452</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>358</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Boron nitride (hot pressed) (commercial purity)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>3675.036534253697</XPos>
+          <YPos>2116.4714044612219</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>289</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+      </Labels>
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+  </Stages>
+</Project>
